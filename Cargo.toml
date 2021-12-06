@@ -1,7 +1,9 @@
 [package]
+edition = "2021"
 name = "rust-i18n-example"
 version = "0.1.0"
-edition = "2021"
 
 [dependencies]
-rust-i18n = "0.1.6"
+example-base = {path = "crates/example-base"}
+lazy_static = "1.4"
+rust-i18n = "0.2"
